@@ -1,0 +1,252 @@
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+            padding-bottom: -10px;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 150px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: gray;
+			height: 300px;
+		}
+
+		.secondsection {
+			background-color: rgb(175, 175, 241);
+			height: 500px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "img.jpg.png">
+			</div>
+			<li><a href="#web">Services</a></li>
+			<li><a href="#program">Recruiters</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">Services</h1>
+				<p class="text-small">
+					47 Inspiring Student Portfolio Examples
+Last Updated
+sep 16 2023
+Written By
+sindhu and soumya
+
+We dont expect student portfolio websites to be perfect…they are, after all, portfolios made by students.
+
+If you dont know, weve published collections of multiple portfolio websites - art portfolios, architecture portfolios, photography portfolios, web designer portfolios, copywriter portfolios, UX portfolios, etc. Only the websites above a certain (excellent) web design standard get into those collections.
+
+Since this is a collection of student portfolios, the bar is comparatively lower (of course, we looked for fundamentals like site structure & hierarchy, clear typography, etc.).
+
+Still, most websites I came across didnt get in.
+
+This is the collection of those that did, i.e., these are the best student portfolios I found.
+
+Note: Many of these portfolios are of web design, UX design, and related-field students because they (obviously) tend to make better websites. But I have tried to include all kinds of student portfolios.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					Recruiters
+				</h1>
+                <ul>
+				<p class="text-small">
+				<li align="filled circle">Microsoft</li><br>
+                <li align="filled circle">Apple</li><br>
+                <li align="filled circle">Amazon</li><br>
+                <li align="filled circle">Meta</li><br>
+                <li align="filled circle">Accenture</li><br>
+                <li align="filled circle">Alphabet</li><br>
+                <li align="filled circle">IBM</li><br>
+                <li align="filled circle">Cisco</li><br>
+				</p>
+            </ul>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Queries</h1>
+
+			<p class="sectionSubTag text-small">
+				Any queries please contant us
+            	</p>
+		</div>
+	</section>
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+	</footer>
+	</body>
+	</html>
+
